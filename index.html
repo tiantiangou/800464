@@ -143,7 +143,7 @@
 		<meta name="apple-mobile-web-app-title" content="welcome">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="./index_files/ct.css">
-
+                <link href="./static/style.css" rel="stylesheet" type="text/css" />
 		<link type="text/css" href="./index_files/pace-theme-minimal.css" rel="stylesheet">
 		<style type="text/css">
 			@media screen and (max-width:640px) {
@@ -172,7 +172,7 @@
 			}
           
           .xiaoqi{
-            width:100%;
+            width:80%;
           	height:200px;
           }
           body{
@@ -193,7 +193,81 @@
 			</div>
 
 		</div>
+		<!--右侧客服代码开始-->
+        <div class="cndns-right" style="position:fixed; right:0px;">
+            <div class="cndns-right-meau meau-sev">
+                <a href="javascript:" class="cndns-right-btn"><img src="/static/icon65.png" width="20" height="96"></a>
+    
+                <div class="cndns-right-box">
+                    <div class="box-border">
+    
+                        <div class="kf_left">
+                            
+                            <div class="kf_list">
+                                <ul class="clearfix">
+                                    <li><a href="https://ttcp8813.com/mlcs?op=10252" target="_blank" class="STYLE3"><i class="iconfont icon-qq"></i>微聊客服</a></li>
+                                    <li><a href="https://ttcp8813.com/mlcs?op=10252" target="_blank" class="STYLE3"><i class="iconfont icon-qq"></i>24小时</a></li>
+    
+                                </ul>
+                                <div class="kf_title STYLE4">天天中彩票全心全意为您服务</div>
+                                <div class="kf_list">
+                                    <ul class="clearfix">
+                                        <li class="on"><a href="https://vscaue.5pfxcicm.com/03f943c80b65ba2jkfle-kelif44ecf0568b22920ddfe82e344c50e448b1ff1bc73ff43206499b45b5c3f1125" target="_blank" class="STYLE3"><i class="iconfont icon-qq"></i>在线客服</a></li>
+                                        <li class="on"><a href="https://vscaue.5pfxcicm.com/03f943c80b65ba2jkfle-kelif44ecf0568b22920ddfe82e344c50e448b1ff1bc73ff43206499b45b5c3f1125" target="_blank" class="STYLE3"><i class="iconfont icon-qq"></i>24小时</a></li>
+    
+                                    </ul>
+                                    <div class="kf_tel mt15"></div>
+                                </div>
+                            </div>
+    
+                            <div class="kf_right">
+                                <div class="kf_title"></div>
+                                <div class="kf_tel mt15"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <script>
+                var online = new Array();
+            </script>
+            
+    
+            <script type="text/javascript">
+                //置顶事件
+                function topBack() {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 300);
+                }
+    
+    
+                for (var i = 0; i < online.length; i++) {
+                    //alert(online[i] );
+                    if (online[i] != 0) {
+                        $(".kf_list li").eq(i).addClass("on");
+                        if (i == 8) $(".kf_right .kf_ann a").eq(1).addClass("on");
+                        if (i == 9) $(".kf_right .kf_ann a").eq(2).addClass("on");
+                    }
+                }
+    
+                var menuText = '';
+                for (var i = 0; i < $(".fwq_menu>ul>li").length; i++) {
+                    $(".fwq_menu>ul>li").eq(i).find("a").text($(".fwq_menu>ul>li").eq(i).find("a").text().replace("服务器租用", ''));
+                }
+                for (var i = 0; i < $(".gy_menu a").length; i++) {
+                    $(".gy_menu a").eq(i).text($(".gy_menu a").eq(i).text().replace("解决方案", ''));
+                    $(".gy_menu a").eq(i).text($(".gy_menu a").eq(i).text().replace("定制方案", ''));
+                    $(".gy_menu a").eq(i).text($(".gy_menu a").eq(i).text().replace("方案", ''));
+                }
+            </script>
 
+        <!--底部广告-->
+
+        </div>
+		<!--右侧客服代码结束-->
 		<canvas id="canvas" width="1536" height="698"></canvas>
 		<script src="./index_files/ct1.js"></script>
 		<script src="./index_files/ct2.js"></script>
