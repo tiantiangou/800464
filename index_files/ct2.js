@@ -1,6 +1,6 @@
 var tiaozhuans = document.getElementById('tiaozhuans');
 				tiaozhuans.onclick = function(){
-					location.href = 'https://ttcp8813.com'
+					location.href = 'https://370835.com'
 				}
 !
 function(t) {
